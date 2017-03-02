@@ -14,7 +14,9 @@
 <P>   You are logged in as ${logedinuser}. </P>
 <h3>
 	<center>This will call UserManagement Micro service </center>
-	<center>JenkinsThis will call UserManagement Micro service </center>
+	<center> </center>
+	
+	Suresh puts new code
 </h3>
 
 
