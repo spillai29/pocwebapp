@@ -93,7 +93,7 @@ public class HomeController {
 		//String username=(String)modelmap.get("username");
 		System.out.println("testing form"+provider+" "+packname);
 		
-		 final String uri = "http://localhost:8084/gs-rest-service-0.1.0/shopping/donatecellpack?provider="+provider+"&type="+type+"&packname="+packname;
+		 final String uri = "http://localhost:8080/gs-rest-service/shopping/donatecellpack?provider="+provider+"&type="+type+"&packname="+packname;
 	     
 		    RestTemplate restTemplate = new RestTemplate();
 		    String result = restTemplate.getForObject(uri, String.class);
@@ -112,7 +112,7 @@ public class HomeController {
 		//String username=(String)modelmap.get("username");
 		System.out.println("testing form"+provider+" "+packname);
 		
-		 final String uri = "http://localhost:8084/gs-rest-service-0.1.0/shopping/requestcellpack?provider="+provider+"&packname="+packname;
+		 final String uri = "http://localhost:8080/gs-rest-service/shopping/requestcellpack?provider="+provider+"&packname="+packname;
 	     
 		    RestTemplate restTemplate = new RestTemplate();
 		    String result = restTemplate.getForObject(uri, String.class);
