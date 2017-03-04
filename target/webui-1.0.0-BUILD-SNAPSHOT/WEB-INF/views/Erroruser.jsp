@@ -10,10 +10,13 @@
 <h1>
 	Error WebUI of Telecom Service!  
 </h1>
-
+ 
 
 <h3>
-	Invalid User.User Does not exist 
+	<P>   ${msgcreation}. </P> 
+	
+	<P>   ${telecomerror}. </P> 
+	
 </h3>
 </body>
 </html>

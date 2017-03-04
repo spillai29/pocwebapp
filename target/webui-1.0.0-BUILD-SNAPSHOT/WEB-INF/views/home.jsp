@@ -9,9 +9,14 @@
 	Welcome to WebUI of Telecom Service!  
 </h1>
 
-<P>  The time on the server is ${serverTime}. </P>
+
+<P>   ${msgcreation}. </P>
+<P>   You are logged in as ${logedinuser}. </P>
 <h3>
 	<center>This will call UserManagement Micro service </center>
+	<center> </center>
+	
+	Suresh puts new code
 </h3>
 
 
@@ -19,7 +24,7 @@
 
 </br></br>
 <form action="/webui/login" >
-<Center>Enter User Name  :<input id="username" name="username">   </input></Center>
+<Center>Enter User Id  :<input id="userid" name="userid">   </input></Center>
 <br/>
 <Center>Enter Password  :<input id="pword" name=pword>   </input></Center>
 <br/>
@@ -27,7 +32,7 @@
 </form>
   </br></bt>
 <center><h4><a href="/webui/registration">Not Registerd User ?.Click For User Registration</a>
-Try it Yourself »
+
 </h4></center>
 </body>
 </html>

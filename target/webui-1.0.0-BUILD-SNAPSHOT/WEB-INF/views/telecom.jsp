@@ -14,10 +14,18 @@
 <form action="/webui/telecomsell" >
 <Center>
 <h2>
+  
+ </br>
 	Donate  Telecom package  
+	</br></br>
+	<Center>You are logged in as  ${logedinuser} </Center>
+	</br>
+	<Center>Response From Telecom Microservice  - ${telecomresponse} </Center>
+	
 </h2>
 
-<Center>/
+
+</Center></br>
 <Center>Provider name  :<input id="provider" name="provider">   </input></Center>
 <br/>
 <Center>Enter pack type  :<input id="type" name=type>   </input></Center>
@@ -30,6 +38,8 @@
 <Center>
 <h2>
 	Request  Telecom package  
+	
+	  You are logged in as ${logedinuser}
 </h2>
 </Center>
 </br>

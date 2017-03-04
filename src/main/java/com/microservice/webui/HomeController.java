@@ -58,7 +58,7 @@ public class HomeController {
 		//String username=(String)modelmap.get("username");
 		System.out.println("testing form"+userid+" "+pword);
 		
-		 final String uri = "http://localhost:8086/UserMgmtMS/rest/validateUser?userid="+userid+"&pword="+pword;
+		 final String uri = "http://localhost:8083/UserMgmtMS/rest/validateUser?userid="+userid+"&pword="+pword;
 	     
 		    RestTemplate restTemplate = new RestTemplate();
 		    String result = restTemplate.getForObject(uri, String.class);
@@ -93,7 +93,7 @@ public class HomeController {
 		//String username=(String)modelmap.get("username");
 		System.out.println("testing form"+provider+" "+packname);
 		
-		 final String uri = "http://localhost:8080/shopping/donatecellpack?provider="+provider+"&type="+type+"&packname="+packname;
+		 final String uri = "http://localhost:8084/gs-rest-service-0.1.0/shopping/donatecellpack?provider="+provider+"&type="+type+"&packname="+packname;
 	     
 		    RestTemplate restTemplate = new RestTemplate();
 		    String result = restTemplate.getForObject(uri, String.class);
@@ -112,7 +112,7 @@ public class HomeController {
 		//String username=(String)modelmap.get("username");
 		System.out.println("testing form"+provider+" "+packname);
 		
-		 final String uri = "http://localhost:8080/shopping/requestcellpack?provider="+provider+"&packname="+packname;
+		 final String uri = "http://localhost:8084/gs-rest-service-0.1.0/shopping/requestcellpack?provider="+provider+"&packname="+packname;
 	     
 		    RestTemplate restTemplate = new RestTemplate();
 		    String result = restTemplate.getForObject(uri, String.class);
@@ -142,7 +142,7 @@ public class HomeController {
 		System.out.println("testing user registrationform"+username+" "+userid);
 		
 		//final String uri = "http://localhost:8086/UserMgmtMS/rest/createUser?userid="+username+"&pword="+pword+"&userid="+userid;
-		final String uri = "http://localhost:8086/UserMgmtMS/rest/createUser?";
+		final String uri = "http://localhost:8083/UserMgmtMS/rest/createUser?";
 	     
 	
 		

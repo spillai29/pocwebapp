@@ -17,6 +17,7 @@
 </br></br>
 <form action="/webui/userregistration" >
 <Center>Enter User Name  :<input id="username" name="username">   </input></Center>
+<br/>
 <Center>Enter User Id    :<input id="userid" name="userid">   </input></Center>
 <br/>
 <Center>Enter Password  :<input id="pword" name=pword>   </input></Center>
